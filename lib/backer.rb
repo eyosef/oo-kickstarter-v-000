@@ -12,7 +12,7 @@ class Backer
   def back_project(project)
     @backed_projects << project
 
-    if project
+    if project == self.project
 
     #project.each{|project_name| Project.new(project_name)}
     #Project.backer = self.name #FIX
