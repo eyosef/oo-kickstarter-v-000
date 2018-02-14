@@ -14,6 +14,9 @@ class Backer
 
     if project == self.project
       self.name = Project.new(backers)
+    else 
+      nil
+    end
 
     #project.each{|project_name| Project.new(project_name)}
     #Project.backer = self.name #FIX
