@@ -10,6 +10,8 @@ class Backer
   end
 
   def back_project(project)
+    project == self.project
+    
     @backed_projects << project
 
     #project.each{|project_name| Project.new(project_name)}
