@@ -14,7 +14,7 @@ class Backer
 
     if project == self.project
       self.name = Project.new(backers)
-    else 
+    else
       nil
     end
 
