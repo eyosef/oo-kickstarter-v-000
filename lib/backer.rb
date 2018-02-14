@@ -13,7 +13,7 @@ class Backer
     @backed_projects << project
 
     if (self.project.nil?) #project == self.project
-      self.name = Project.new(backers) && Project.add_backer(self.name)
+       Project.add_backer(self.name) #self.name = Project.new(backers)
     else
       nil
     end
