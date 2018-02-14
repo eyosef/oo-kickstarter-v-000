@@ -10,10 +10,12 @@ class Backer
   end
 
   def back_project(project)
-    project = self.project
-     if project == self.project
-       @backed_projects << project && Project.add_backer(self.name)
-     end
+    @backed_projects << project
+    
+    # project = self.project
+    #  if project == self.project
+    #    @backed_projects << project && Project.add_backer(self.name)
+    #  end
   end
 
   def add_to_project
