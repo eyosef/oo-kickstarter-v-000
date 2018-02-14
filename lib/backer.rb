@@ -12,12 +12,6 @@ class Backer
   def back_project(project)
     @backed_projects << project
 
-    if (self.project.nil?) #project == self.project
-       Project.add_backer(self.name) #self.name = Project.new(backers)
-    else
-      nil
-    end
-
     #project.each{|project_name| Project.new(project_name)}
     #Project.backer = self.name #FIX
   end
