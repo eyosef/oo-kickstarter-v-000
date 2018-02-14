@@ -11,6 +11,7 @@ class Backer
 
   def back_project(project)
      if project == self.project
+       
 
     @backed_projects << project
 
